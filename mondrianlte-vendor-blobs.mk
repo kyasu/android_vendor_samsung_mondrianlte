@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/bin/hvdcp:system/bin/hvdcp \
 	vendor/samsung/mondrianlte/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/mondrianlte/proprietary/bin/radish:system/bin/radish \
+	vendor/samsung/mondrianlte/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/mondrianlte/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/mondrianlte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
@@ -82,33 +83,29 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/lib/libmllite.so:system/lib/libmllite.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
 	vendor/samsung/mondrianlte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
+	vendor/samsung/mondrianlte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/mondrianlte/proprietary/bin/efsks:system/bin/efsks \
 	vendor/samsung/mondrianlte/proprietary/bin/ks:system/bin/ks \
 	vendor/samsung/mondrianlte/proprietary/bin/qcks:system/bin/qcks \
 	vendor/samsung/mondrianlte/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/mondrianlte/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/mondrianlte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/mondrianlte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/samsung/mondrianlte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/samsung/mondrianlte/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/mondrianlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/mondrianlte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-	vendor/samsung/mondrianlte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/mondrianlte/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/mondrianlte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/samsung/mondrianlte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
@@ -176,6 +173,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libmmcamera_s5k6b2yx.so:system/lib/libmmcamera_s5k6b2yx.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
