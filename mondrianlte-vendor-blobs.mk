@@ -86,9 +86,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/mondrianlte/proprietary/bin/efsks:system/bin/efsks \
 	vendor/samsung/mondrianlte/proprietary/bin/ks:system/bin/ks \
+	vendor/samsung/mondrianlte/proprietary/bin/rild:system/bin/rild \
+	vendor/samsung/mondrianlte/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	vendor/samsung/mondrianlte/proprietary/bin/qcks:system/bin/qcks \
 	vendor/samsung/mondrianlte/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/mondrianlte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/mondrianlte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/mondrianlte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
@@ -105,6 +107,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/mondrianlte/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/mondrianlte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
