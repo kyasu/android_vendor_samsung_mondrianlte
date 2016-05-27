@@ -24,8 +24,15 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/mondrianlte/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/samsung/mondrianlte/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/samsung/mondrianlte/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
 	vendor/samsung/mondrianlte/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+	vendor/samsung/mondrianlte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+	vendor/samsung/mondrianlte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+	vendor/samsung/mondrianlte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+	vendor/samsung/mondrianlte/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
+	vendor/samsung/mondrianlte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
+	vendor/samsung/mondrianlte/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
+	vendor/samsung/mondrianlte/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
+	vendor/samsung/mondrianlte/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0147_N1-LTE.hcd:system/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0147_N1-LTE.hcd \
 	vendor/samsung/mondrianlte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -82,6 +89,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libmllite.so:system/lib/libmllite.so \
 	vendor/samsung/mondrianlte/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+	vendor/samsung/mondrianlte/proprietary/lib/libak8963c.so:system/lib/libak8963c.so \
 	vendor/samsung/mondrianlte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/mondrianlte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/mondrianlte/proprietary/bin/efsks:system/bin/efsks \
