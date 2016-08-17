@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+	vendor/samsung/mondrianlte/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
 	vendor/samsung/mondrianlte/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
 	vendor/samsung/mondrianlte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/samsung/mondrianlte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
